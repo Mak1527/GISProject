@@ -2,14 +2,6 @@
 
 A curated collection of geospatial analysis scripts and workflows developed using both Google Earth Engine (GEE) JavaScript API and Python. This repository serves as a central portfolio for various GIS, remote sensing, and spatial data processing projects.
 
-## Repository Structure
-GISProject/
-├── GEE/ # Google Earth Engine JavaScript codes
-│ └── (Project folders, e.g. Burn_Severity_SouthKorea/)
-├── Python/ # Python scripts and Jupyter Notebooks
-│ └── (Project folders, e.g. Flood_Mapping_India/)
-├── README.md # This file
-
 ## Contents
 
 - **GEE/** – Scripts for cloud-based remote sensing analysis, burn severity mapping, land cover classification, and more using the GEE platform.
