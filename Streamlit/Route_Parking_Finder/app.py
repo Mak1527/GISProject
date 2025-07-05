@@ -87,8 +87,8 @@ tags = {'amenity': ['parking', 'parking_space', 'parking_entrance']}
 try:
     origin_coords = geocode(start_loc)
     destination_coords = geocode(end_loc)
-    parking_start = ox.features_from_point(origin_coords, tags=tags, dist=800)
-    parking_end = ox.features_from_point(destination_coords, tags=tags, dist=800)
+    parking_start = ox.features_from_point(origin_coords, tags=tags, dist=2000)
+    parking_end = ox.features_from_point(destination_coords, tags=tags, dist=2000)
 except Exception as e:
     st.warning(f"Could not fetch parking data: {e}")
     parking_start = parking_end = None
